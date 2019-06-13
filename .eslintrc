@@ -1,0 +1,23 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["standard", "standard-react", "prettier"],
+  "plugins": ["prettier", "react"],
+  "rules": {
+    "max-len": ["error", 120, 4],
+    "camelcase": "off",
+    "react/prop-types": "warn",
+    "react/react-in-jsx-scope": "off",
+    "promise/param-names": "off",
+    "prefer-promise-reject-errors": "off",
+    "no-control-regex": "off",
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "es5",
+        "singleQuote": true,
+        "bracketSpacing": false,
+        "printWidth": 120
+      }
+    ]
+  }
+}
